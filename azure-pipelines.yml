@@ -4,9 +4,10 @@ pool:
   - npm
 
 trigger:
- branches:
-     exclude:
-         - '*'
+  branches:
+    exclude:
+    - '*'
+
 
 pr:
 - master
