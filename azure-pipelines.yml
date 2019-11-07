@@ -3,6 +3,11 @@ pool:
   demands:
   - npm
 
+trigger:
+ branches:
+     exclude:
+         - '*'
+
 pr:
 - master
 
